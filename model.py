@@ -61,7 +61,7 @@ def get_relevant_details(question: str, top_k: int) -> List[str]:
     return result
 
 
-openai.api_key = "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"
+openai.api_key = OPENAI-API-KEY
 
 response = openai.completions.create(
   model="gpt-3.5-turbo-instruct",
